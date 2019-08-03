@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+// 头部区域
+.head {
+    height: 100px;
+    width: 100%;
+    background-color: #f3f5f7;
+    .nav {
+        width: 1366px;
+        margin: 0 auto;
+        padding: 30px 0;
+        .logo {
+            float: left;
+        }
+        .navbar {
+            height: 42px;
+            line-height: 42px;
+            margin-left: 40px;
+            float: left;
+            ul {
+                li {
+                    display: inline-block;
+                    :hover {
+                        border-bottom:2px solid #00a4ff; 
+                    }
+                    a {
+                        text-decoration: none;
+                        padding: 0 8px;
+                        font-size: 18px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+// banner区域
+.banner {
+    width: 1200px;
+    height: 420px;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+// 中间区域
+.main {
+    width: 1200px;
+    height: 900px;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+// 底部区域
+.footer {
+    height: 273px;
+    width: 100%;
+    background-color: cyan;
+}
