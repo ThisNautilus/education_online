@@ -28,6 +28,10 @@ a {
     *zoom: 1;
 }
 
+body {
+    background-color: #f3f5f7;
+}
+
 // 头部区域
 .head {
     height: 100px;
@@ -85,13 +89,16 @@ a {
             width: 100px;
             height: 42px;
             line-height: 42px;
-            font-size: 18px;
+            font-size: 16px;
             text-align: center;
             float: right;
             margin-right: 100px;
             a {
                 // text-decoration: none;
                 color: black;
+            }
+            a:hover {
+                color: #00a4ff;
             }
         }
     }
@@ -146,8 +153,38 @@ a {
 .main {
     width: 1200px;
     height: 900px;
-    background-color: orange;
     margin: 0 auto;
+    background-color: pink;
+    .recommend {
+        height: 62px;
+        background-color: #fff;
+        margin: 8px 0;
+        box-shadow: -1px 3px 5px rgba(0,0,0,.1);
+        ul {
+            // line-height: 62px;
+            li {
+                float: left;
+                padding: 20px 36px;
+                a {
+                    color: black;
+                }
+            }
+            li:first-child,li:hover {
+                a {
+                    color: #00a4ff;
+                } 
+            }
+        }
+        span {
+            line-height: 62px;
+            display: block;
+            float:right;
+            padding: 0 36px;
+            color: #00a4ff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
 }
 
 // 底部区域
