@@ -5,6 +5,9 @@
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 /* 清除浮动 */
 .clearfix:before,
 .clearfix:after {
@@ -79,14 +82,49 @@ ul {
   margin-right: 100px;
 }
 .head .nav .login a {
-  text-decoration: none;
   color: black;
 }
-.banner {
-  width: 1200px;
+.banner-container {
+  width: 100%;
   height: 420px;
-  background-color: skyblue;
+  background-color: #1c036c;
+}
+.banner-container .banner {
+  width: 1200px;
   margin: 0 auto;
+}
+.banner-container .banner .course {
+  width: 192px;
+  height: 420px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.banner-container .banner .course ul {
+  height: 420px;
+  width: 188px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-container .banner .course ul li {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 18px;
+}
+.banner-container .banner .course ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+.banner-container .banner .course ul li span {
+  display: block;
+  float: right;
+  padding-right: 16px;
+}
+.banner-container .banner .course .lunbotu {
+  position: absolute;
 }
 .main {
   width: 1200px;
