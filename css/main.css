@@ -74,6 +74,7 @@ body {
   border: 0;
   background: #00a4ff url(../images/search.png) center center no-repeat;
   float: left;
+  cursor: pointer;
 }
 .head .nav .login {
   width: 100px;
@@ -128,6 +129,9 @@ body {
   display: block;
   float: right;
   padding-right: 16px;
+}
+.banner-container .banner .course ul li:hover a {
+  color: #00a4ff;
 }
 .banner-container .banner .course .lunbotu {
   position: absolute;
