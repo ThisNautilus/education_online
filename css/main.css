@@ -138,9 +138,7 @@ body {
 }
 .main {
   width: 1200px;
-  height: 900px;
   margin: 0 auto;
-  background-color: pink;
 }
 .main .recommend {
   height: 62px;
@@ -193,17 +191,36 @@ body {
 }
 .main .recoList .List {
   height: 600px;
-  background-color: blue;
   float: left;
 }
-.main .recoList .List li {
+.main .recoList .List ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .recoList .List ul li {
   width: 228px;
   height: 270px;
-  border: 1px solid black;
+  margin-bottom: 12px;
   overflow: hidden;
+  float: left;
+}
+.main .recoList .List ul li a {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.main .recoList .List ul li a h4,
+.main .recoList .List ul li a p {
+  padding: 10px 22px;
+}
+.main .recoList .List ul li a p span {
+  color: #ff592d;
+  font-size: 18px;
 }
 .footer {
   height: 273px;
   width: 100%;
   background-color: cyan;
+  float: left;
 }

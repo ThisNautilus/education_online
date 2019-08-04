@@ -158,9 +158,9 @@ body {
 // 中间区域
 .main {
     width: 1200px;
-    height: 900px;  // 删除
+    // height: 900px;  // 删除
     margin: 0 auto;
-    background-color: pink;  // 删除
+    // background-color: pink;  // 删除
     .recommend {
         height: 62px;
         line-height: 62px;
@@ -221,13 +221,36 @@ body {
         }
         .List {
             height: 600px; // del
-            background-color: blue; //del
+            // background-color: blue; //del
             float: left;
-            li {
-                width: 228px;
-                height: 270px;
-                border: 1px solid black; // del
-                overflow: hidden;
+            
+            ul {
+                // 在li的父盒子上布局伸缩布局
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li {
+                    width: 228px;
+                    height: 270px;
+                    margin-bottom: 12px;
+                    // border: 1px solid black; // del
+                    overflow: hidden;
+                    float: left;
+                    a {
+                        display: block;
+                        background-color: #ffffff;
+                        box-shadow: -1px 3px 5px rgba(0,0,0,.1);
+                        h4,p {
+                            padding: 10px 22px;
+                        }
+                        p {
+                            span {
+                                color: #ff592d;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
             }
         }
         
@@ -239,4 +262,5 @@ body {
     height: 273px;
     width: 100%;
     background-color: cyan;
+    float: left;
 }
