@@ -223,7 +223,6 @@ body {
 .main .coding .coding-head {
   float: left;
   width: 1200px;
-  margin-top: 20px;
 }
 .main .coding .coding-head ul {
   line-height: 40px;
@@ -526,6 +525,30 @@ body {
 .main .front .front-main ul li a p span {
   color: #ff592d;
   font-size: 18px;
+}
+.main .teachers .teachers-head {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  float: left;
+  color: black;
+}
+.main .teachers .teachers-main {
+  width: 1200px;
+  float: left;
+}
+.main .teachers .teachers-main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .teachers .teachers-main ul li {
+  width: 228px;
+  height: 320px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  float: left;
 }
 .footer {
   width: 100%;

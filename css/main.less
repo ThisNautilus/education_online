@@ -264,7 +264,7 @@ body {
         .coding-head {
             float: left;
             width: 1200px;
-            margin-top: 20px;
+            // margin-top: 20px;
             ul {
                 line-height: 40px;
                 li {
@@ -594,6 +594,39 @@ body {
                 }
             }
         }
+    }
+    // 牛人推荐
+    .teachers {
+        .teachers-head {
+            width: 1200px;
+            height: 40px; 
+            line-height: 40px;
+            // background-color: orange; // del
+            font-size: 20px;
+            float: left;
+            color: black;
+        }
+        .teachers-main {
+            width: 1200px;
+            float: left;
+            ul {
+                // 在li的父盒子上布局伸缩布局
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li {
+                    width: 228px;
+                    height: 320px;
+                    overflow: hidden;
+                    margin-bottom: 12px;
+                    // border: 1px solid black; // del
+                    overflow: hidden;
+                    float: left;
+                    
+                }
+            }
+        }
+        
     }
 }
 
