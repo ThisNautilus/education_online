@@ -220,6 +220,11 @@ body {
   color: #ff592d;
   font-size: 18px;
 }
+.main .coding .coding-head {
+  float: left;
+  width: 1200px;
+  margin-top: 20px;
+}
 .main .coding .coding-head ul {
   line-height: 40px;
 }
@@ -243,6 +248,284 @@ body {
   color: #1c036c;
   float: right;
   margin-right: 30px;
+}
+.main .coding .coding-main {
+  float: left;
+  width: 1200px;
+}
+.main .coding .coding-main .coding-left {
+  width: 228px;
+  height: 392px;
+  background: url(../images/bianchengrumen.png);
+  float: left;
+}
+.main .coding .coding-main .coding-left h4 {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  margin: 34px 30px 0 34px;
+  color: #fff;
+}
+.main .coding .coding-main .coding-left h4:nth-child(2) {
+  margin-top: 0;
+}
+.main .coding .coding-main .coding-left ul {
+  float: left;
+  margin: 20px 30px 0 34px;
+}
+.main .coding .coding-main .coding-left ul li {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.main .coding .coding-main .coding-right-h {
+  width: 957px;
+  height: 100px;
+  float: left;
+  margin-left: 15px;
+}
+.main .coding .coding-main .coding-right-b {
+  width: 957px;
+  height: 270px;
+  float: left;
+  margin: 22px 0 0 15px;
+}
+.main .coding .coding-main .coding-right-b ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .coding .coding-main .coding-right-b ul li {
+  width: 228px;
+  height: 270px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  float: left;
+}
+.main .coding .coding-main .coding-right-b ul li a {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.main .coding .coding-main .coding-right-b ul li a h4,
+.main .coding .coding-main .coding-right-b ul li a p {
+  padding: 10px 22px;
+}
+.main .coding .coding-main .coding-right-b ul li a p span {
+  color: #ff592d;
+  font-size: 18px;
+}
+.main .data .data-head {
+  float: left;
+  width: 1200px;
+  margin-top: 20px;
+}
+.main .data .data-head ul {
+  line-height: 40px;
+}
+.main .data .data-head ul li {
+  float: left;
+  margin-right: 70px;
+}
+.main .data .data-head ul li a {
+  color: black;
+}
+.main .data .data-head ul li a:hover {
+  color: #00a4ff;
+}
+.main .data .data-head ul li:first-child {
+  font-size: 20px;
+}
+.main .data .data-head ul li:nth-child(2) {
+  margin-left: 300px;
+}
+.main .data .data-head ul li:last-child {
+  color: #1c036c;
+  float: right;
+  margin-right: 30px;
+}
+.main .data .data-main {
+  float: left;
+  width: 1200px;
+}
+.main .data .data-main .data-left {
+  width: 228px;
+  height: 392px;
+  background: url(../images/shujufenxi.png);
+  float: left;
+}
+.main .data .data-main .data-left h4 {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  margin: 34px 30px 0 34px;
+  color: #fff;
+}
+.main .data .data-main .data-left h4:nth-child(2) {
+  margin-top: 0;
+}
+.main .data .data-main .data-left ul {
+  float: left;
+  margin: 20px 30px 0 34px;
+}
+.main .data .data-main .data-left ul li {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.main .data .data-main .data-right-h {
+  width: 957px;
+  height: 100px;
+  float: left;
+  margin-left: 15px;
+}
+.main .data .data-main .data-right-b {
+  width: 957px;
+  height: 270px;
+  float: left;
+  margin: 22px 0 0 15px;
+}
+.main .data .data-main .data-right-b ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .data .data-main .data-right-b ul li {
+  width: 228px;
+  height: 270px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  float: left;
+}
+.main .data .data-main .data-right-b ul li a {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.main .data .data-main .data-right-b ul li a h4,
+.main .data .data-main .data-right-b ul li a p {
+  padding: 10px 22px;
+}
+.main .data .data-main .data-right-b ul li a p span {
+  color: #ff592d;
+  font-size: 18px;
+}
+.main .ml .ml-head {
+  float: left;
+  width: 1200px;
+  margin-top: 20px;
+}
+.main .ml .ml-head ul {
+  line-height: 40px;
+}
+.main .ml .ml-head ul li {
+  float: left;
+  margin-right: 70px;
+}
+.main .ml .ml-head ul li a {
+  color: black;
+}
+.main .ml .ml-head ul li a:hover {
+  color: #00a4ff;
+}
+.main .ml .ml-head ul li:first-child {
+  font-size: 20px;
+}
+.main .ml .ml-head ul li:nth-child(2) {
+  margin-left: 300px;
+}
+.main .ml .ml-head ul li:last-child {
+  color: #1c036c;
+  float: right;
+  margin-right: 30px;
+}
+.main .ml .ml-main {
+  width: 1200px;
+  float: left;
+}
+.main .ml .ml-main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .ml .ml-main ul li {
+  width: 228px;
+  height: 270px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  float: left;
+}
+.main .ml .ml-main ul li a {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.main .ml .ml-main ul li a h4,
+.main .ml .ml-main ul li a p {
+  padding: 10px 22px;
+}
+.main .ml .ml-main ul li a p span {
+  color: #ff592d;
+  font-size: 18px;
+}
+.main .front .front-head {
+  float: left;
+  width: 1200px;
+}
+.main .front .front-head ul {
+  line-height: 40px;
+}
+.main .front .front-head ul li {
+  float: left;
+  margin-right: 70px;
+}
+.main .front .front-head ul li a {
+  color: black;
+}
+.main .front .front-head ul li a:hover {
+  color: #00a4ff;
+}
+.main .front .front-head ul li:first-child {
+  font-size: 20px;
+}
+.main .front .front-head ul li:nth-child(2) {
+  margin-left: 300px;
+}
+.main .front .front-head ul li:last-child {
+  color: #1c036c;
+  float: right;
+  margin-right: 30px;
+}
+.main .front .front-main {
+  width: 1200px;
+  float: left;
+}
+.main .front .front-main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .front .front-main ul li {
+  width: 228px;
+  height: 270px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  float: left;
+}
+.main .front .front-main ul li a {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.main .front .front-main ul li a h4,
+.main .front .front-main ul li a p {
+  padding: 10px 22px;
+}
+.main .front .front-main ul li a p span {
+  color: #ff592d;
+  font-size: 18px;
 }
 .footer {
   width: 100%;

@@ -199,6 +199,7 @@ body {
             cursor: pointer;
         }
     }
+    // 精品推荐
     .recoList {
         .head-info {
             height: 40px; 
@@ -258,8 +259,12 @@ body {
         }
         
     }
+    // 编程入门
     .coding {
         .coding-head {
+            float: left;
+            width: 1200px;
+            margin-top: 20px;
             ul {
                 line-height: 40px;
                 li {
@@ -282,6 +287,310 @@ body {
                     color: #1c036c;
                     float: right;
                     margin-right: 30px;
+                }
+            }
+        }
+        .coding-main {
+            float: left;
+            width: 1200px;
+            // height: 600px;  // del
+            .coding-left {
+                width: 228px;
+                height: 392px;
+                background: url(../images/bianchengrumen.png);
+                float: left;
+                h4 {
+                    float: left;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 18px;
+                    margin: 34px 30px 0 34px;
+                    // margin-left: 34px;
+                    color: #fff;
+                }
+                h4:nth-child(2) {
+                    margin-top: 0;
+                }
+                ul {
+                    float: left;
+                    margin: 20px 30px 0 34px;
+                    li {
+                        color: #fff;
+                        font-size: 14px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+            .coding-right-h {
+                width: 957px;
+                height: 100px;
+                float: left;
+                margin-left: 15px;
+            }
+            .coding-right-b {
+                width: 957px;
+                height: 270px;
+                // background-color: pink;
+                float: left;
+                margin: 22px 0 0 15px;
+                ul {
+                    // 在li的父盒子上布局伸缩布局
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    li {
+                        width: 228px;
+                        height: 270px;
+                        margin-bottom: 12px;
+                        // border: 1px solid black; // del
+                        overflow: hidden;
+                        float: left;
+                        a {
+                            display: block;
+                            background-color: #ffffff;
+                            box-shadow: -1px 3px 5px rgba(0,0,0,.1);
+                            h4,p {
+                                padding: 10px 22px;
+                            }
+                            p {
+                                span {
+                                    color: #ff592d;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 数据分析
+    .data {
+        .data-head {
+            float: left;
+            width: 1200px;
+            margin-top: 20px;
+            ul {
+                line-height: 40px;
+                li {
+                    float: left;
+                    margin-right: 70px;
+                    a {
+                        color: black;
+                    }
+                    a:hover {
+                        color: #00a4ff;
+                    }
+                }
+                li:first-child {
+                    font-size: 20px;
+                }
+                li:nth-child(2) {
+                    margin-left: 300px;
+                }
+                li:last-child {
+                    color: #1c036c;
+                    float: right;
+                    margin-right: 30px;
+                }
+            }
+        }
+        .data-main {
+            float: left;
+            width: 1200px;
+            // height: 600px;  // del
+            .data-left {
+                width: 228px;
+                height: 392px;
+                background: url(../images/shujufenxi.png);
+                float: left;
+                h4 {
+                    float: left;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 18px;
+                    margin: 34px 30px 0 34px;
+                    // margin-left: 34px;
+                    color: #fff;
+                }
+                h4:nth-child(2) {
+                    margin-top: 0;
+                }
+                ul {
+                    float: left;
+                    margin: 20px 30px 0 34px;
+                    li {
+                        color: #fff;
+                        font-size: 14px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+            .data-right-h {
+                width: 957px;
+                height: 100px;
+                float: left;
+                margin-left: 15px;
+            }
+            .data-right-b {
+                width: 957px;
+                height: 270px;
+                // background-color: pink;
+                float: left;
+                margin: 22px 0 0 15px;
+                ul {
+                    // 在li的父盒子上布局伸缩布局
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    li {
+                        width: 228px;
+                        height: 270px;
+                        margin-bottom: 12px;
+                        // border: 1px solid black; // del
+                        overflow: hidden;
+                        float: left;
+                        a {
+                            display: block;
+                            background-color: #ffffff;
+                            box-shadow: -1px 3px 5px rgba(0,0,0,.1);
+                            h4,p {
+                                padding: 10px 22px;
+                            }
+                            p {
+                                span {
+                                    color: #ff592d;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 机器学习
+    .ml {
+        .ml-head {
+            float: left;
+            width: 1200px;
+            margin-top: 20px;
+            ul {
+                line-height: 40px;
+                li {
+                    float: left;
+                    margin-right: 70px;
+                    a {
+                        color: black;
+                    }
+                    a:hover {
+                        color: #00a4ff;
+                    }
+                }
+                li:first-child {
+                    font-size: 20px;
+                }
+                li:nth-child(2) {
+                    margin-left: 300px;
+                }
+                li:last-child {
+                    color: #1c036c;
+                    float: right;
+                    margin-right: 30px;
+                }
+            }
+        }
+        .ml-main {
+            width: 1200px;
+            float: left;
+            ul {
+                // 在li的父盒子上布局伸缩布局
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li {
+                    width: 228px;
+                    height: 270px;
+                    margin-bottom: 12px;
+                    overflow: hidden;
+                    float: left;
+                    a {
+                        display: block;
+                        background-color: #ffffff;
+                        box-shadow: -1px 3px 5px rgba(0,0,0,.1);
+                        h4,p {
+                            padding: 10px 22px;
+                        }
+                        p {
+                            span {
+                                color: #ff592d;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 前端开发
+    .front {
+        .front-head {
+            float: left;
+            width: 1200px;
+            // margin-top: 20px;
+            ul {
+                line-height: 40px;
+                li {
+                    float: left;
+                    margin-right: 70px;
+                    a {
+                        color: black;
+                    }
+                    a:hover {
+                        color: #00a4ff;
+                    }
+                }
+                li:first-child {
+                    font-size: 20px;
+                }
+                li:nth-child(2) {
+                    margin-left: 300px;
+                }
+                li:last-child {
+                    color: #1c036c;
+                    float: right;
+                    margin-right: 30px;
+                }
+            }
+        }
+        .front-main {
+            width: 1200px;
+            float: left;
+            ul {
+                // 在li的父盒子上布局伸缩布局
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li {
+                    width: 228px;
+                    height: 270px;
+                    margin-bottom: 12px;
+                    overflow: hidden;
+                    float: left;
+                    a {
+                        display: block;
+                        background-color: #ffffff;
+                        box-shadow: -1px 3px 5px rgba(0,0,0,.1);
+                        h4,p {
+                            padding: 10px 22px;
+                        }
+                        p {
+                            span {
+                                color: #ff592d;
+                                font-size: 18px;
+                            }
+                        }
+                    }
                 }
             }
         }
