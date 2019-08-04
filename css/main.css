@@ -255,5 +255,52 @@ body {
   margin: 32px auto;
 }
 .footer .footer-container .footer-left {
-  border: 1px solid black;
+  width: 460px;
+  float: left;
+}
+.footer .footer-container .footer-left img {
+  margin-bottom: 26px;
+}
+.footer .footer-container .footer-left p {
+  font-size: 12px;
+  color: #666666;
+}
+.footer .footer-container .footer-left h4 {
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #00a4ff;
+  color: #00a4ff;
+  margin-top: 16px;
+}
+.footer .footer-container .footer-right {
+  float: left;
+  margin-left: 220px;
+}
+.footer .footer-container .footer-right .about-us,
+.footer .footer-container .footer-right .guide,
+.footer .footer-container .footer-right .partner {
+  float: left;
+}
+.footer .footer-container .footer-right .about-us h5,
+.footer .footer-container .footer-right .guide h5,
+.footer .footer-container .footer-right .partner h5 {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+.footer .footer-container .footer-right .about-us a,
+.footer .footer-container .footer-right .guide a,
+.footer .footer-container .footer-right .partner a {
+  font-size: 12px;
+  color: #7d7d7d;
+}
+.footer .footer-container .footer-right .about-us a:hover,
+.footer .footer-container .footer-right .guide a:hover,
+.footer .footer-container .footer-right .partner a:hover {
+  color: #00a4ff;
+}
+.footer .footer-container .footer-right .guide,
+.footer .footer-container .footer-right .partner {
+  margin-left: 100px;
 }
