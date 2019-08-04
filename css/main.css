@@ -48,14 +48,17 @@ body {
 .head .nav .navbar ul li {
   display: inline-block;
 }
-.head .nav .navbar ul li :hover {
-  border-bottom: 2px solid #00a4ff;
-}
 .head .nav .navbar ul li a {
   text-decoration: none;
   padding: 0 8px;
   font-size: 18px;
   color: black;
+}
+.head .nav .navbar ul li:first-child {
+  border-bottom: 2px solid #00a4ff;
+}
+.head .nav .navbar ul li:hover {
+  border-bottom: 2px solid #00a4ff;
 }
 .head .nav .search {
   width: 410px;
@@ -104,12 +107,67 @@ body {
   margin: 0 auto;
 }
 .banner-container .banner .course {
-  width: 192px;
-  height: 420px;
-  background-color: rgba(0, 0, 0, 0.3);
   position: relative;
+  width: 1200px;
+  height: 420px;
+  /* 设置小圆点父盒子样式 */
+  /* 导航小圆点样式 */
 }
-.banner-container .banner .course ul {
+.banner-container .banner .course .item {
+  position: absolute;
+}
+.banner-container .banner .course .icon {
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 999;
+  opacity: 0;
+}
+.banner-container .banner .course .icon:hover {
+  color: blue;
+  opacity: 1;
+}
+.banner-container .banner .course #goPre {
+  left: 0;
+}
+.banner-container .banner .course #goNext {
+  right: 0;
+}
+.banner-container .banner .course .pointList {
+  width: 100px;
+  height: 16px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  /* margin-left: -50px; */
+  z-index: 999;
+}
+.banner-container .banner .course .point {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(201, 221, 24, 0.8);
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.banner-container .banner .course .current {
+  z-index: 66;
+}
+.banner-container .banner .course .active {
+  background-color: rgba(240, 108, 20, 0.815);
+}
+.banner-container .banner .course .course-guide {
   height: 420px;
   width: 188px;
   position: absolute;
@@ -119,25 +177,22 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.banner-container .banner .course ul li {
+.banner-container .banner .course .course-guide li {
   height: 42px;
   line-height: 42px;
   padding-left: 18px;
 }
-.banner-container .banner .course ul li a {
+.banner-container .banner .course .course-guide li a {
   color: #fff;
   font-size: 14px;
 }
-.banner-container .banner .course ul li span {
+.banner-container .banner .course .course-guide li span {
   display: block;
   float: right;
   padding-right: 16px;
 }
-.banner-container .banner .course ul li:hover a {
+.banner-container .banner .course .course-guide li:hover a {
   color: #00a4ff;
-}
-.banner-container .banner .course .lunbotu {
-  position: absolute;
 }
 .main {
   width: 1200px;

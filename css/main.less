@@ -54,15 +54,18 @@ body {
             ul {
                 li {
                     display: inline-block;
-                    :hover {
-                        border-bottom:2px solid #00a4ff; 
-                    }
                     a {
                         text-decoration: none;
                         padding: 0 8px;
                         font-size: 18px;
                         color: black;
                     }
+                }
+                li:first-child {
+                    border-bottom:2px solid #00a4ff;
+                }
+                li:hover {
+                    border-bottom:2px solid #00a4ff;
                 }
             }
         }
@@ -115,11 +118,75 @@ body {
         width: 1200px;
         margin: 0 auto;
         .course {
-            width: 192px;
-            height: 420px;
-            background-color: rgba(0,0,0,.3);
+            // width: 192px;
+            // height: 420px;
+            // background-color: rgba(0,0,0,.3);
             position: relative;
-            ul {
+            width: 1200px;
+            height: 420px;
+            .item {
+                position: absolute;
+            }
+            .icon {
+                width: 30px;
+                height: 40px;
+                line-height: 40px;
+                background-color: rgba(0,0,0,.1);
+                text-align: center;
+                font-size: 30px;
+                color: yellow;
+                font-weight: bold;
+                cursor: pointer;
+                float: left;
+                position: absolute;
+                top: 50%;
+                margin-top: -20px;
+                z-index: 999;
+                opacity: 0;
+            }
+            
+            .icon:hover {
+                color: blue;
+                opacity: 1;
+            }
+            
+            #goPre {
+                left: 0;
+            }
+            
+            #goNext {
+                right: 0;
+            }
+            /* 设置小圆点父盒子样式 */
+            
+            .pointList {
+                width: 100px;
+                height: 16px;
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+                /* margin-left: -50px; */
+                z-index: 999;
+            }
+            /* 导航小圆点样式 */
+            
+            .point {
+                width: 10px;
+                height: 10px;
+                background-color: rgba(201, 221, 24, 0.8);
+                border-radius: 100%;
+                float: left;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .current {
+                z-index: 66;
+            }
+            .active {
+                background-color: rgba(240, 108, 20, 0.815);
+            }
+
+            .course-guide {
                 height: 420px;
                 width: 188px;
                 position: absolute;
@@ -148,11 +215,6 @@ body {
                         color: #00a4ff;
                     }
                 }
-            }
-            .lunbotu {
-                // width: 1200px;
-                // height: 420px;
-                position: absolute;
             }
         }
     }

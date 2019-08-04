@@ -39,8 +39,36 @@
     <!-- banner区域 -->
     <div class="banner-container">
         <div class="banner">
-            <div class="course">
-                <ul>
+            <div class="course" id="lunbotu">
+                <ul class="slider">
+                    <li>
+                        <a href="#"><img src="./images/banner_01.png" class="item current"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner_02.png" class="item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner_03.png" class="item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner_04.png" class="item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/banner_05.png" class="item"></a>
+                    </li>
+                </ul>
+                <!-- 导航小圆点 -->
+                <ul class="pointList">
+                    <li class="point active" pointIndex="0"></li>
+                    <li class="point" pointIndex="1"></li>
+                    <li class="point" pointIndex="2"></li>
+                    <li class="point" pointIndex="3"></li>
+                    <li class="point" pointIndex="4"></li>
+                </ul>
+                <!-- 上一个下一个图标 -->
+                <div class="icon" id="goPre">&lt;</div>
+                <div class="icon" id="goNext">&gt;</div>
+                <ul class="course-guide">
                     <li><a href="#">前端开发<span>></span></a></li>
                     <li><a href="#">前端开发<span>></span></a></li>
                     <li><a href="#">前端开发<span>></span></a></li>
@@ -51,9 +79,6 @@
                     <li><a href="#">前端开发<span>></span></a></li>
                     <li><a href="#">前端开发<span>></span></a></li>
                 </ul>
-                <div class="lunbotu">
-                    <img src="./images/banner_01.png" alt="">
-                </div>
             </div>
         </div>
     </div>
@@ -496,6 +521,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
