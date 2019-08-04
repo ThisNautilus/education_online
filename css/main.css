@@ -178,6 +178,9 @@ body {
 .main .recoList .head-info span {
   display: inline-block;
 }
+.main .recoList .head-info span a {
+  color: black;
+}
 .main .recoList .head-info span a:hover {
   color: #00a4ff;
 }
@@ -190,7 +193,6 @@ body {
   margin-right: 30px;
 }
 .main .recoList .List {
-  height: 600px;
   float: left;
 }
 .main .recoList .List ul {
@@ -218,9 +220,40 @@ body {
   color: #ff592d;
   font-size: 18px;
 }
-.footer {
-  height: 273px;
-  width: 100%;
-  background-color: cyan;
+.main .coding .coding-head ul {
+  line-height: 40px;
+}
+.main .coding .coding-head ul li {
   float: left;
+  margin-right: 70px;
+}
+.main .coding .coding-head ul li a {
+  color: black;
+}
+.main .coding .coding-head ul li a:hover {
+  color: #00a4ff;
+}
+.main .coding .coding-head ul li:first-child {
+  font-size: 20px;
+}
+.main .coding .coding-head ul li:nth-child(2) {
+  margin-left: 300px;
+}
+.main .coding .coding-head ul li:last-child {
+  color: #1c036c;
+  float: right;
+  margin-right: 30px;
+}
+.footer {
+  width: 100%;
+  background-color: #ffffff;
+  float: left;
+}
+.footer .footer-container {
+  height: 273px;
+  width: 1200px;
+  margin: 32px auto;
+}
+.footer .footer-container .footer-left {
+  border: 1px solid black;
 }

@@ -206,6 +206,9 @@ body {
             // background-color: orange; // del
             span {
                 display: inline-block;
+                a {
+                    color: black;
+                }
                 a:hover {
                     color: #00a4ff;
                 }
@@ -220,7 +223,7 @@ body {
             }
         }
         .List {
-            height: 600px; // del
+            // height: 600px; // del
             // background-color: blue; //del
             float: left;
             
@@ -255,12 +258,47 @@ body {
         }
         
     }
+    .coding {
+        .coding-head {
+            ul {
+                line-height: 40px;
+                li {
+                    float: left;
+                    margin-right: 70px;
+                    a {
+                        color: black;
+                    }
+                    a:hover {
+                        color: #00a4ff;
+                    }
+                }
+                li:first-child {
+                    font-size: 20px;
+                }
+                li:nth-child(2) {
+                    margin-left: 300px;
+                }
+                li:last-child {
+                    color: #1c036c;
+                    float: right;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
 }
 
 // 底部区域
 .footer {
-    height: 273px;
     width: 100%;
-    background-color: cyan;
+    background-color: #ffffff;
     float: left;
+    .footer-container {
+        height: 273px;
+        width: 1200px;
+        margin: 32px auto;
+        .footer-left {
+            border: 1px solid black;
+        }
+    }
 }
