@@ -144,20 +144,25 @@ body {
 }
 .main .recommend {
   height: 62px;
+  line-height: 62px;
   background-color: #fff;
   margin: 8px 0;
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .main .recommend ul li {
   float: left;
-  padding: 20px 36px;
 }
 .main .recommend ul li a {
   color: black;
+  padding: 0 30px;
+  border-right: 2px solid #ccc;
 }
 .main .recommend ul li:first-child a,
 .main .recommend ul li:hover a {
   color: #00a4ff;
+}
+.main .recommend ul li:last-child a {
+  border: 0;
 }
 .main .recommend span {
   line-height: 62px;
@@ -167,6 +172,35 @@ body {
   color: #00a4ff;
   font-size: 14px;
   cursor: pointer;
+}
+.main .recoList .head-info {
+  height: 40px;
+  line-height: 40px;
+}
+.main .recoList .head-info span {
+  display: inline-block;
+}
+.main .recoList .head-info span a:hover {
+  color: #00a4ff;
+}
+.main .recoList .head-info span:first-child {
+  font-size: 20px;
+  float: left;
+}
+.main .recoList .head-info span:last-child {
+  float: right;
+  margin-right: 30px;
+}
+.main .recoList .List {
+  height: 600px;
+  background-color: blue;
+  float: left;
+}
+.main .recoList .List li {
+  width: 228px;
+  height: 270px;
+  border: 1px solid black;
+  overflow: hidden;
 }
 .footer {
   height: 273px;

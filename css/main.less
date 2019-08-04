@@ -158,11 +158,12 @@ body {
 // 中间区域
 .main {
     width: 1200px;
-    height: 900px;
+    height: 900px;  // 删除
     margin: 0 auto;
-    background-color: pink;
+    background-color: pink;  // 删除
     .recommend {
         height: 62px;
+        line-height: 62px;
         background-color: #fff;
         margin: 8px 0;
         box-shadow: -1px 3px 5px rgba(0,0,0,.1);
@@ -170,15 +171,22 @@ body {
             // line-height: 62px;
             li {
                 float: left;
-                padding: 20px 36px;
+                // padding: 20px 36px;
                 a {
                     color: black;
+                    padding: 0 30px;
+                    border-right: 2px solid #ccc;
                 }
             }
             li:first-child,li:hover {
                 a {
                     color: #00a4ff;
                 } 
+            }
+            li:last-child {
+                a {
+                    border: 0;
+                }
             }
         }
         span {
@@ -190,6 +198,39 @@ body {
             font-size: 14px;
             cursor: pointer;
         }
+    }
+    .recoList {
+        .head-info {
+            height: 40px; 
+            line-height: 40px;
+            // background-color: orange; // del
+            span {
+                display: inline-block;
+                a:hover {
+                    color: #00a4ff;
+                }
+            }
+            span:first-child {
+                font-size: 20px;
+                float: left;
+            }
+            span:last-child {
+                float: right;
+                margin-right: 30px;
+            }
+        }
+        .List {
+            height: 600px; // del
+            background-color: blue; //del
+            float: left;
+            li {
+                width: 228px;
+                height: 270px;
+                border: 1px solid black; // del
+                overflow: hidden;
+            }
+        }
+        
     }
 }
 
